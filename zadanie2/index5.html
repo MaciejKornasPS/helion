@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<title>Zadanie rekrutacyjne 3</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap4.min.css">
+
+</head>
+
+<body>
+
+	<div class="container p-3">
+		<table id="example" class="table table-striped table-bordered dt-responsive w-100">
+
+	        <thead>
+	            <tr>
+		        	<th>ID</th>
+					<th>Tytuł</th>
+				    <th>Autor</th>
+				    <th>Cena</th>
+				    <th>Typ</th>
+				    <th>Status</th>
+				    <th>Okładka</th>
+	            </tr>
+	        </thead>
+
+	        <tbody id="dane"></tbody> <!-- Tutaj umieszczana jest zawrtość pliku JSON -->
+
+	        <tfoot>
+	            <tr>
+	                <th>ID</th>
+					<th>Tytuł</th>
+				    <th>Autor</th>
+				    <th>Cena</th>
+				    <th>Typ</th>
+				    <th>Status</th>
+				    <th>Okładka</th>
+	            </tr>
+	        </tfoot>
+
+	    </table>
+	</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+  	<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"></script>
+  	<script	src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+  	<script	src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap4.min.js"></script>
+  	<script src="main.js"></script>
+
+</body>
+</html>
