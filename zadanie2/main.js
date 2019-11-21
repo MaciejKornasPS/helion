@@ -15,7 +15,7 @@ $(document).ready(function() {
                 employee_data += '<td>'+value.cena+'</td>';
                 employee_data += '<td>'+value.typ+'</td>';
                 employee_data += '<td>'+value.status+'</td>';
-                employee_data += '<td><img class="img-fluid okladka" src="'+url+value.ident+'.jpg" alt="'+value.tytul+'"></td>';
+                employee_data += '<td><img class="img-fluid okladka w-25" src="'+url+value.ident+'.jpg" alt="'+value.tytul+'"></td>';
                 employee_data += '</tr>';
 
           });
